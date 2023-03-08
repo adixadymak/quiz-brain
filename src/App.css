@@ -1,0 +1,72 @@
+.main {
+  /* max-width: 130rem; */
+  margin: 0 auto;
+}
+
+.footer {
+  padding: 2rem;
+  font-size: 1.6rem;
+  background-color: #fae5d3;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 1rem;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////// */
+
+.how-to-play,
+.reward {
+  margin-bottom: 2.4rem;
+}
+
+.how-to-play-heading,
+.reward-heading {
+  width: 100%;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: 600;
+  display: inline;
+}
+
+.how-to-play-heading:hover,
+.reward-heading:hover {
+  text-decoration: underline;
+}
+
+.how-to-play-desc,
+.reward-desc {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 1.2rem;
+  border-radius: 25px;
+  padding: 2.4rem;
+  background-color: #fdf2e9;
+}
+
+.reward-desc li {
+  margin-left: 1.2rem;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+.italic {
+  font-style: italic;
+}
+.hidden {
+  display: none;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.fs-1-4rem {
+  font-size: 1.4rem;
+}

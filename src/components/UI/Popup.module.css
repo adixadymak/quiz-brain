@@ -1,0 +1,62 @@
+/* Modal Overlay Style */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.11);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.modal {
+  position: fixed;
+  top: 3vh;
+  left: 7%;
+  width: 85%;
+  padding: 4.8rem;
+
+  align-self: center;
+  background-color: #f8f8f8;
+  border-radius: 25px;
+  z-index: 30;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.05);
+
+  /* border: 3px solid #ca6003; */
+
+  /* transform: translate(58%); */
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.closeBtn {
+  width: 35px;
+  height: 35px;
+
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.closeBtnIcon {
+  width: 100%;
+}
+
+/* /////// Media Quaries */
+/* 
+Smart Phone: 300px - 500ps
+BP: 600px
+38em
+*/
+@media (max-width: 38em) {
+  .modal {
+    top: 16vh;
+    left: 8%;
+    width: 85%;
+    padding: 1.8rem;
+  }
+}

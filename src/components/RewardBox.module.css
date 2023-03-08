@@ -1,0 +1,66 @@
+/* Reward */
+
+.rewardBox {
+  width: 65%;
+  border-radius: 12px;
+  background-color: #ad4702;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  padding-top: 2.4rem;
+}
+
+.rewardList {
+  background-color: #f3cba8;
+  width: 85%;
+  padding: 1.2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.rewardBoxHeading {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  color: #d35400;
+}
+
+.rewardStuffs {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rewardStuff {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.rewardStuff p {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.rewardIcon,
+.star-icon {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.4rem;
+  border-radius: 25px;
+}
+
+.rewardIcon {
+  background-color: #d35400;
+}
+.starIcon {
+  width: 4rem;
+  height: 4rem;
+}

@@ -1,0 +1,121 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3.2rem;
+  align-items: center;
+  margin-bottom: 12.8rem;
+  padding: 0 2.4rem;
+}
+
+.heroHeading {
+  font-size: 4.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+}
+.heroDescription {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
+.playNowBtn {
+  font-family: inherit;
+  text-decoration: none;
+  width: 45%;
+  padding: 1.6rem;
+  border: none;
+  transition: all 0.3s;
+  font-size: 1.8rem;
+  color: #fdf2e9;
+  border-radius: 25px;
+  background-color: #d35400;
+  box-shadow: 0 0.4rem 4.8rem rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playNowBtn:hover {
+  background-color: #e67e22;
+}
+
+.heroTextImg {
+  width: 100%;
+  margin: auto;
+}
+
+/* media Query */
+
+/* 
+Landscape Tablet: 900px - 1100px
+BP: 1200px
+75em
+*/
+
+@media (max-width: 75em) {
+  .playNowBtn {
+    font-size: 2rem;
+    width: 35%;
+    padding: 1rem;
+  }
+}
+
+/* 
+Portriat Tablet: 600px - 900px
+BP: 900px
+56em
+*/
+@media (max-width: 57em) {
+  .heroHeading {
+    font-size: 3.6rem;
+  }
+
+  .heroDescription {
+    font-size: 1.4rem;
+  }
+
+  .playNowBtn {
+    width: 33%;
+    padding: 0.4rem;
+    font-size: 1.6rem;
+  }
+
+  .heroTextImg {
+    width: 100%;
+  }
+}
+
+/* 
+Smart Phone: 300px - 500ps
+BP: 600px
+38em
+*/
+@media (max-width: 38em) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .heroHeading {
+    font-size: 3rem;
+  }
+  .heroTextBox {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .heroDescription {
+    font-size: 1.8rem;
+    margin-bottom: 5.4rem;
+  }
+  .heroTextImg {
+    width: 100%;
+  }
+  .playNowBtn {
+    margin: 0 auto;
+    width: 29%;
+    padding: 1.4rem;
+  }
+}
