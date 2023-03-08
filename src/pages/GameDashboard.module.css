@@ -200,3 +200,43 @@ BP: 600px
     margin-left: 37.8rem;
   }
 }
+
+/* 
+Smart Phone: 320px
+BP: 320 px
+20em
+*/
+
+@media (max-width: 20em) {
+  .gameCategory {
+    padding: 0 1.2rem 1rem 1.2rem;
+  }
+
+  .categoryIcon {
+    margin-left: 11.7rem;
+    margin-bottom: 1rem;
+  }
+
+  .categoryText h3 {
+    font-size: 2rem;
+  }
+
+  .categoryText p {
+    font-size: 1.4rem;
+  }
+
+  .gameDashboardHeader {
+    margin-bottom: 6.4rem;
+  }
+  .gameDashboardHeader h2 {
+    font-size: 2.4rem;
+  }
+
+  .gameDashboardHeader p {
+    font-size: 1.8rem;
+  }
+
+  .playIcon {
+    font-size: 3.5rem;
+  }
+}

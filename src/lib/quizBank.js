@@ -53,7 +53,7 @@ export const quizCategories = [
   {
     id: 17,
     name: "Science & Nature",
-    desc: `To develop new technologies, solve practical problems, and make informed decisions.`,
+    desc: `To develop problem solving skills, and make informed decisions.`,
     img: { url: IMAGES.scienceNature.url, alt: IMAGES.scienceNature.alt },
   },
   {
