@@ -239,4 +239,25 @@ BP: 320 px
   .playIcon {
     font-size: 3.5rem;
   }
+
+  .categoryModalHeading {
+    font-size: 3rem;
+  }
+
+  .categoryModalDesc,
+  .categoryModalNote {
+    font-size: 1.8rem;
+  }
+  .categoryModalDesc {
+    margin-bottom: 1.2rem;
+  }
+  .categoryModalNote {
+    margin-bottom: 2rem;
+  }
+  .categoryModalBtn {
+    width: 16rem;
+  }
+  .categoryModalBtn p {
+    font-size: 1.4rem;
+  }
 }

@@ -3,11 +3,3 @@
 .gamePlaying {
   width: 85%;
 }
-
-/* 
-Smart Phone: 300px - 500ps
-BP: 600px
-38em
-*/
-@media (max-width: 38em) {
-}

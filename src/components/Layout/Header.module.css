@@ -90,5 +90,16 @@ BP: 320 px
 @media (max-width: 20em) {
   .header {
     flex-direction: column;
+    gap: 6.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .badge {
+    gap: 0.4rem;
+    padding-right: 1rem;
+  }
+
+  .header .badges {
+    gap: 0.5rem;
   }
 }
