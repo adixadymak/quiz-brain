@@ -115,7 +115,13 @@ BP: 600px
   }
   .playNowBtn {
     margin: 0 auto;
-    width: 29%;
     padding: 1.4rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .playNowBtn {
+    font-size: 2rem;
+    width: 14rem;
   }
 }

@@ -11,7 +11,9 @@
 .countDown {
   width: 4.4rem;
   height: 4.4rem;
-  background-color: #ffdec0;
+  /* background-color: #ffdec0;
+  background-color: #ffdec0; */
+  border: 2px solid #fae5d3;
   font-weight: 600;
   border-radius: 25px;
   font-size: 2.8rem;
@@ -227,8 +229,29 @@ Smart Phone: 300px - 500ps
 BP: 600px
 38em
 */
-@media (max-width: 38em) {
+/* @media (max-width: 38em) {
   .nextQuiz {
     width: 22%;
+  }
+} */
+
+/* 
+Smart Phone:
+BP: 320px
+20em
+*/
+@media (max-width: 20em) {
+  .quizHeading {
+    font-size: 2rem;
+  }
+
+  .nextQuiz {
+    width: 42%;
+  }
+  .quizProgress {
+    width: 70%;
+  }
+  .quizOption {
+    padding: 1.2rem 1.2rem;
   }
 }
